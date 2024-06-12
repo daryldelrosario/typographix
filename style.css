@@ -8,9 +8,6 @@
 
 body {
   min-height: 100vh;
-}
-
-.test {
-  color: dodgerblue;
-  margin: 10px;
+  font-family: 'Jost', sans-serif;
+  overflow: hidden;
 }
