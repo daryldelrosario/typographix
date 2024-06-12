@@ -29,4 +29,46 @@ main {
   font-weight: 500;
   font-style: italic;
   text-align: center;
+  animation-name: focus-in-contract;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    letter-spacing: 0;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.social-media-icons {
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.social-media-icons i {
+  animation: focus-in-contract 3s linear;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.social-media-icons i:hover {
+  transform: scale(1.1);
+
+}
+
+/* FOOTER SECTION STYLES */
+footer {
+  position: absolute;
+  top: calc(100vh - 50px);
+  width: 100%;
+  text-align: center;
 }
