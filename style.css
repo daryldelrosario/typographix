@@ -11,3 +11,22 @@ body {
   font-family: 'Jost', sans-serif;
   overflow: hidden;
 }
+
+main {
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 70%);
+  width: 100vw;
+}
+
+.header h1 {
+  font-size: 100px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
