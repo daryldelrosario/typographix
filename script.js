@@ -7,4 +7,4 @@ setTimeout(() => {
   icons[2].setAttribute('title', 'Twitter [X]');
   icons[3].setAttribute('title', 'Youtube');
   icons[4].setAttribute('title', 'Github');
-}, 5000);
+}, 3000);
