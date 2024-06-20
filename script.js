@@ -28,7 +28,7 @@ function lightMode() {
 function switchTheme() {
   const currentTheme = document.documentElement.getAttribute("data-theme");
   if(!currentTheme || currentTheme === 'light') {
-    DocumentTimeline.documentElement.setAttribute("data-theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
     darkMode();
   } else {
     document.documentElement.setAttribute("data-theme", "light");
@@ -37,4 +37,4 @@ function switchTheme() {
 }
 
 // ADDEVENT LISTENERS
-themeSwitcher.addEvenetListener("click", switchTheme);
+themeSwitcher.addEventListener("click", switchTheme);
