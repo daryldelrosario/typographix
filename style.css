@@ -55,6 +55,16 @@ h2 {
   font-size: 40px;
 }
 
+/* SECTION 1 STYLES */
+/* DARK MODE SWITCH */
+.theme-switcher {
+  z-index: 100;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
 /* HEADER STYLES */
 .header {
   width: 100vw;
