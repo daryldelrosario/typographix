@@ -3,6 +3,7 @@
 /* COLOR VARIABLES */
 :root {
   --on-background: rgb(67, 67, 67);
+  --background: rgb(255, 255, 255);
 }
 
 * {
@@ -15,6 +16,8 @@ body {
   min-height: 100vh;
   font-family: 'Jost', sans-serif;
   overflow-x: hidden;
+  color: var(--on-background);
+  background-color: var(--background);
 }
 
 main {
