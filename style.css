@@ -142,7 +142,6 @@ h2 {
 /* WAVE SECTION */
 .wave {
   width: 100%;
-  position: relative;
 }
 
 .wave > svg {
