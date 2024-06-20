@@ -65,6 +65,19 @@ main {
 
 }
 
+/* SECTION 5 STYLES */
+/* WAVE SECTION */
+.wave {
+  width: 100%;
+  position: relative;
+}
+
+.wave > svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /* FOOTER SECTION STYLES */
 footer {
   position: absolute;
