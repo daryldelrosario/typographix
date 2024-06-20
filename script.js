@@ -43,3 +43,11 @@ themeSwitcher.addEventListener("click", switchTheme);
 
 // LOCAL STORAGE EXERCISE 
 const localStorageTheme = localStorage.getItem("theme");
+if(localStorageTheme) {
+  document.documentElement.setAttribute("data-theme", localStorageTheme);
+  if(localStorageTheme === "dark") {
+    darkMode();
+  } else {
+    lightMode();
+  }
+}
