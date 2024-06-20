@@ -28,6 +28,7 @@ html, body {
   overflow-x: hidden;
   color: var(--on-background);
   background-color: var(--background);
+  transition: background-color 0.75s ease, color 0.75s ease;
 }
 
 main {
