@@ -94,8 +94,22 @@ h2 {
   border: 10px solid var(--on-background);
 }
 
+/* SECTION 3 STYLES */
+.image-container {
+  position: relative;
+  top: -25%;
+  height: 50vh;
+}
+
 .small-image {
-  width: 50%;
+  height: 50%;
+  width: auto;
+  padding: 20px;
+  border: 10px solid var(--on-background);
+}
+
+.small-image:not(:first-child) {
+  margin-left: 20px;
 }
 
 
