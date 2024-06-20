@@ -10,6 +10,8 @@
   --background: rgb(255, 255, 255);
 }
 
+/* GLOBAL STYLES */
+
 * {
   padding: 0;
   margin: 0;
@@ -26,6 +28,19 @@ html, body {
 
 main {
   position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: var(--on-background);
+}
+
+h3 {
+  margin-bottom: 7px;
+}
+
+a:hover {
+  border-bottom: 5px solid var(--on-background);
 }
 
 /* SECTIONS STYLES */
@@ -110,6 +125,16 @@ h2 {
 
 .small-image:not(:first-child) {
   margin-left: 20px;
+}
+
+/* SECTION 4 STYLES */
+.blog-container {
+  margin: 0 auto;
+  width: 50ch;
+}
+
+.blog-item{
+  margin-bottom: 50px;
 }
 
 
