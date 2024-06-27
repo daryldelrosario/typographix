@@ -71,7 +71,7 @@ a:hover {
 
 /* Rotate first bar */
 .active .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
+  transform: translateY(0.6rem) rotate(-45deg);
 }
 
 /* Fade out the second bar */
@@ -79,7 +79,7 @@ a:hover {
 
 /* Rotate last bar */
 .active .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
+  transform: translateY(-0.75rem) rotate(45deg);
 }
 
 nav {
