@@ -299,13 +299,22 @@ footer {
   .main-image {
     height: auto;
     width: 50%;
-    top: -7%;
+    top: -20%;
   }
 
   .small-image {
     height: 45%;
     padding: 10px;
     border-width: 5px;
+  }
+
+  #section-4 h2 {
+    margin-top: 20px;
+  }
+
+  .blog-container {
+    position: relative;
+    top: -7%;
   }
 }
 
