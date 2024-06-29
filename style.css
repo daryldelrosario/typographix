@@ -325,6 +325,25 @@ footer {
     width: 85%;
     border-width: 5px;
     padding: 10px;
+    top: -35%;
+  }
+
+  .small-image {
+    height: auto;
+    width: 75%;
+    border-width: 5px;
+    padding: 10px;
+    margin: auto 5% !important;
+    position: relative;
+    left: 7%;
+  }
+
+  #section-4 {
+    margin-top: 50vh;
+  }
+
+  .blog-container {
+    position: relative;
     top: -20%;
   }
 }
