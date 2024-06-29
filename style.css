@@ -209,14 +209,15 @@ h2 {
 
 /* SECTION 2 STYLES */
 #section-2 h2 {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .main-image {
-  width: 50%;
+  width: 40%;
   position: relative;
   padding: 20px;
   border: 10px solid var(--on-background);
+  top: -7%;
 }
 
 /* SECTION 3 STYLES */
@@ -238,6 +239,9 @@ h2 {
 }
 
 /* SECTION 4 STYLES */
+#section-4 h2 {
+  margin-top: 50px;
+}
 .blog-container {
   margin: 0 auto;
   width: 50ch;
@@ -294,7 +298,7 @@ footer {
 @media screen and (min-width: 900px) and (max-width: 1180px) {
   .main-image {
     height: auto;
-    width: 75%;
+    width: 50%;
     top: -7%;
   }
 
@@ -302,5 +306,16 @@ footer {
     height: 45%;
     padding: 10px;
     border-width: 5px;
+  }
+}
+
+/* TABLET VERTICAL */
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .main-image {
+    height: auto;
+    width: 85%;
+    border-width: 5px;
+    padding: 10px;
+    top: -20%;
   }
 }
