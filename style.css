@@ -382,3 +382,35 @@ footer {
     top: 5%;
   }
 }
+
+/* SMARTPHONE VERTICAL */
+@media screen and (max-width: 600px) {
+  /* SECTION 2 */
+  #section-2 h2 {
+    font-size: 1.25rem;
+  }
+
+  .main-image {
+    height: auto;
+    min-width: 85%;
+    border-width: 5px;
+    padding: 10px;
+    top:-50%;
+  }
+
+  /* SECTION 3 */
+  #section-3 h2 {
+    font-size: 2rem;
+  }
+
+  .small-image {
+    height: auto;
+    width: 75%;
+    border-width: 5px;
+    padding: 10px;
+    margin: auto 5% !important;
+    position: relative;
+    left: 7%;
+  }
+
+}
