@@ -267,7 +267,7 @@ h2 {
 /* FOOTER SECTION STYLES */
 footer {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
 }
@@ -287,10 +287,6 @@ footer {
   nav {
     width: 100%;
     background: var(--background);
-  }
-
-  .wave > svg:last-child {
-    border-bottom: 20px solid #e9c46a;
   }
 }
 
@@ -370,12 +366,19 @@ footer {
     margin-top: 1rem;
   }
 
-
   .image-container {
     top: -15%;
   }
 
   .small-image {
     height: 80%;
+  }
+
+  #section-4 h2 {
+    margin-top: 15vh;
+  }
+
+  .blog-container {
+    top: 5%;
   }
 }
