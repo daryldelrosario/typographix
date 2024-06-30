@@ -347,3 +347,35 @@ footer {
     top: -20%;
   }
 }
+
+/* SMARTPHONE HORIZONTAL */
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  nav ul {
+    font-size: 1.25rem;
+    height: 100vh;
+  }
+
+  #section-2 h2 {
+    margin-top: 2rem;
+  }
+
+  .main-image {
+    border-width: 5px;
+    padding: 10px;
+    width: 40%;
+    top: -7%;
+  }
+
+  #section-3 h2 {
+    margin-top: 1rem;
+  }
+
+
+  .image-container {
+    top: -15%;
+  }
+
+  .small-image {
+    height: 80%;
+  }
+}
