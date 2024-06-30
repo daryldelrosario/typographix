@@ -413,4 +413,15 @@ footer {
     left: 7%;
   }
 
+  /* SECTION 4 */
+  #section-4 h2 {
+    font-size: 1.75rem;
+  }
+
+  .blog-container {
+    position: relative;
+    top: -7%;
+    width: 80%;
+  }
+
 }
