@@ -385,11 +385,17 @@ footer {
 
 /* SMARTPHONE VERTICAL */
 @media screen and (max-width: 600px) {
-  /* SECTION 2 */
-  #section-2 h2 {
-    font-size: 1.25rem;
+  nav ul {
+    position: relative;
+    left: -20px;
   }
 
+  h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  
+  /* SECTION 2 */
   .main-image {
     height: auto;
     min-width: 85%;
@@ -424,4 +430,8 @@ footer {
     width: 80%;
   }
 
+  footer {
+    font-size: 0.75rem;
+    bottom: 0px;
+  }
 }
