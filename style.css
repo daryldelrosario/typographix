@@ -291,7 +291,7 @@ footer {
 }
 
 /* TABLET HORIZONTAL */
-@media screen and (min-width: 900px) and (max-width: 1180px) {
+@media screen and (min-width: 800px) and (max-width: 1180px) {
   .main-image {
     height: auto;
     width: 50%;
@@ -315,7 +315,10 @@ footer {
 }
 
 /* TABLET VERTICAL */
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 700px) and (max-width: 821px) {
+  nav ul {
+    font-size: 2rem !important;
+  }
   .main-image {
     height: auto;
     width: 85%;
@@ -426,7 +429,7 @@ footer {
 
   .blog-container {
     position: relative;
-    top: -7%;
+    top: -3%;
     width: 80%;
   }
 
