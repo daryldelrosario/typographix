@@ -32,15 +32,10 @@ function setThemeBasedOnPreference() {
 // FUNCTION to switch the themes
 function switchTheme() {
   const currentTheme = document.documentElement.getAttribute("data-theme");
-  if(!currentTheme || currentTheme === 'light') {
-    document.documentElement.setAttribute("data-theme", "dark");
-    localStorage.setItem("theme", "dark");
-    darkMode();
-  } else {
-    document.documentElement.setAttribute("data-theme", "light");
-    localStorage.setItem("theme", "light");
-    lightMode();
-  }
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+  updateThemeIcon(newTheme === 'dark');
 }
 
 // ADDEVENT LISTENERS
