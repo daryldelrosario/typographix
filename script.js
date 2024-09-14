@@ -18,9 +18,18 @@ function updateThemeIcon(isDarkMode) {
   themeSwitcher.children[1].classList.replace(isDarkMode ? 'fa-sun': 'fa-moon', isDarkMode ? 'fa-moon': 'fa-sun');
 }
 
+// FUNCTION to Determine if dark mode is preferred
+function prefersDarkMode() {
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
 
+// FUNCTION to Set theme based on the preference 
+function setThemeBasedOnPreference() {
+  const isDarkMode = prefersDarkMode();
+  document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+}
 
-// FUNCTION to switch the themese 
+// FUNCTION to switch the themes
 function switchTheme() {
   const currentTheme = document.documentElement.getAttribute("data-theme");
   if(!currentTheme || currentTheme === 'light') {
