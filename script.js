@@ -44,7 +44,7 @@ themeSwitcher.addEventListener("click", switchTheme);
 
 // LOCAL STORAGE EXERCISE 
 function initializeTheme() {
-  const savedTheme = localStorage.getIte('theme');
+  const savedTheme = localStorage.getItem('theme');
   if(savedTheme) {
     document.documentElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme === 'dark');
