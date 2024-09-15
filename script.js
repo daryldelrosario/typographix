@@ -42,17 +42,23 @@ function switchTheme() {
 themeSwitcher.addEventListener("click", switchTheme);
 
 // LOCAL STORAGE EXERCISE 
-const localStorageTheme = localStorage.getItem("theme");
-if(localStorageTheme) {
-  document.documentElement.setAttribute("data-theme", localStorageTheme);
-  if(localStorageTheme === "dark") {
-    darkMode();
+function initializeTheme() {
+  const savedTheme = localStorage.getIte('theme');
+  if(savedTheme) {
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme === 'dark');
   } else {
-    lightMode();
+    setThemeBasedOnPreference();
   }
 }
 
-// NAVIGATION MENU
+// LISTEN for system theme changes 
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setThemeBasedOnPreference);
+
+// INITIALIZE theme when the script loads
+initializeTheme();
+
+// NAVIGATION MENU ======================
 const nav = document.getElementById("nav");
 const menuIcon = document.querySelector(".menu-icon");
 
