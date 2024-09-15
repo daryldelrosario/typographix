@@ -446,3 +446,14 @@ footer {
     bottom: 0px;
   }
 }
+
+/* REDUCED MOTION */
+@media (prefers-reduced-motion: reduce) {
+  .header h1 {
+    animation: none;
+  }
+
+  .social-media-icons i {
+    animation: none;
+  }
+}
