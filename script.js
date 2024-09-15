@@ -27,6 +27,7 @@ function prefersDarkMode() {
 function setThemeBasedOnPreference() {
   const isDarkMode = prefersDarkMode();
   document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+  updateThemeIcon(isDarkMode);
 }
 
 // FUNCTION to switch the themes
